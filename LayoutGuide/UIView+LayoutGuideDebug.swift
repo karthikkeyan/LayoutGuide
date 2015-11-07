@@ -1,5 +1,5 @@
 //
-//  UILayoutGuide+Debug.swift
+//  UIView+LayoutGuideDebug.swift
 //  LayoutGuide
 //
 //  Created by Karthik Keyan on 11/7/15.

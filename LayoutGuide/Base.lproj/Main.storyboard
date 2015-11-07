@@ -15,32 +15,129 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q1Q-24-2BD">
-                                <rect key="frame" x="0.0" y="540" width="600" height="60"/>
+                                <rect key="frame" x="-4" y="597" width="383" height="70"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="O6Z-LH-xe5"/>
+                                    <constraint firstAttribute="height" constant="70" id="O6Z-LH-xe5"/>
                                 </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Zs-Vd-eqq">
+                                <rect key="frame" x="36" y="40" width="303" height="537"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone" translatesAutoresizingMaskIntoConstraints="NO" id="jvV-Yi-slg">
+                                        <rect key="frame" x="12" y="0.0" width="279" height="430"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="430" id="mwn-7D-PO7"/>
+                                        </constraints>
+                                    </imageView>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="AiE-tc-FAu">
+                                        <rect key="frame" x="104" y="410" width="95" height="20"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="3Ae-Pg-mIV"/>
+                                            <constraint firstAttribute="width" constant="95" id="7wh-dQ-vgj"/>
+                                        </constraints>
+                                        <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="currentPageIndicatorTintColor" red="0.47058823529411764" green="0.47058823529411764" blue="0.47058823529411764" alpha="1" colorSpace="calibratedRGB"/>
+                                    </pageControl>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPhone 6s Gold" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o6U-Ly-vaL">
+                                        <rect key="frame" x="12" y="438" width="150" height="21"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="5bG-xw-I5G"/>
+                                            <constraint firstAttribute="height" constant="21" id="9fl-u2-17I"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$749" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEc-aJ-hxc">
+                                        <rect key="frame" x="12" y="467" width="150" height="21"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="Nqd-mt-ExG"/>
+                                            <constraint firstAttribute="height" constant="21" id="diw-rN-emE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="64GB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Sl-Be-GEK">
+                                        <rect key="frame" x="235" y="438" width="56" height="21"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="56" id="qJL-Nf-nyV"/>
+                                            <constraint firstAttribute="height" constant="21" id="qyZ-ge-IsZ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="16"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3D Touch    12MP Camera     A9 Chip    Touch ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="qxH-wk-3Gq">
+                                        <rect key="frame" x="12" y="501" width="279" height="21"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="1HE-qI-j8b"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="jvV-Yi-slg" secondAttribute="trailing" constant="12" id="7l1-vO-XLZ"/>
+                                    <constraint firstItem="jvV-Yi-slg" firstAttribute="leading" secondItem="2Zs-Vd-eqq" secondAttribute="leading" constant="12" id="Aws-1f-pTM"/>
+                                    <constraint firstItem="jvV-Yi-slg" firstAttribute="top" secondItem="2Zs-Vd-eqq" secondAttribute="top" id="Lv8-mH-Xqw"/>
+                                    <constraint firstItem="AiE-tc-FAu" firstAttribute="centerX" secondItem="jvV-Yi-slg" secondAttribute="centerX" id="OUM-6x-45o"/>
+                                    <constraint firstItem="o6U-Ly-vaL" firstAttribute="top" secondItem="AiE-tc-FAu" secondAttribute="bottom" constant="8" id="SiI-BO-Yoe"/>
+                                    <constraint firstAttribute="bottom" secondItem="qxH-wk-3Gq" secondAttribute="bottom" constant="15" id="U7j-8k-JYY"/>
+                                    <constraint firstItem="AiE-tc-FAu" firstAttribute="bottom" secondItem="jvV-Yi-slg" secondAttribute="bottom" id="YxD-D3-97x"/>
+                                    <constraint firstItem="o6U-Ly-vaL" firstAttribute="leading" secondItem="2Zs-Vd-eqq" secondAttribute="leading" constant="12" id="byN-a8-HJt"/>
+                                    <constraint firstAttribute="trailing" secondItem="1Sl-Be-GEK" secondAttribute="trailing" constant="12" id="dVE-sr-5MZ"/>
+                                    <constraint firstItem="qxH-wk-3Gq" firstAttribute="leading" secondItem="2Zs-Vd-eqq" secondAttribute="leading" constant="12" id="gw4-y2-Bmj"/>
+                                    <constraint firstItem="1Sl-Be-GEK" firstAttribute="top" secondItem="AiE-tc-FAu" secondAttribute="bottom" constant="8" id="kd6-Cb-pTQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="qxH-wk-3Gq" secondAttribute="trailing" constant="12" id="lmk-w0-VjB"/>
+                                    <constraint firstItem="dEc-aJ-hxc" firstAttribute="top" secondItem="o6U-Ly-vaL" secondAttribute="bottom" constant="8" id="nXi-2V-pCl"/>
+                                    <constraint firstItem="dEc-aJ-hxc" firstAttribute="leading" secondItem="2Zs-Vd-eqq" secondAttribute="leading" constant="12" id="pEy-hA-Cbr"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="Q1Q-24-2BD" firstAttribute="top" secondItem="2Zs-Vd-eqq" secondAttribute="bottom" constant="20" id="3fz-1T-mp9"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Q1Q-24-2BD" secondAttribute="bottom" id="LNA-Al-bRA"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Q1Q-24-2BD" secondAttribute="trailing" constant="-20" id="ZBr-vu-CY9"/>
+                            <constraint firstItem="2Zs-Vd-eqq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="a0L-SZ-Pvw"/>
+                            <constraint firstItem="2Zs-Vd-eqq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="iRF-eN-aUj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2Zs-Vd-eqq" secondAttribute="trailing" constant="20" id="mza-pS-4Wk"/>
                             <constraint firstItem="Q1Q-24-2BD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="rva-sY-hIG"/>
                         </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="footerView" destination="Q1Q-24-2BD" id="S2E-xq-g5R"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="433.5" y="432.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="iphone" width="248" height="315"/>
+    </resources>
 </document>

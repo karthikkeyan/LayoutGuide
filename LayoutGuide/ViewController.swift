@@ -11,9 +11,9 @@ import UIKit
 
 private let footerButtonSpacing: CGFloat = 5.0
 
-private let footerButtonWidth: CGFloat = 124
+private let footerButtonWidth: CGFloat = 140
 
-private let footerButtonHeight: CGFloat = 36
+private let footerButtonHeight: CGFloat = 50
 
 
 class ViewController: UIViewController {
@@ -22,9 +22,9 @@ class ViewController: UIViewController {
     
     lazy var checkoutButtonSeparatorGuide = UILayoutGuide()
     
-    lazy var checkoutButton: UIButton = UIButton(type: .System)
+    lazy var checkoutButton: UIButton = UIButton(type: .Custom)
     
-    lazy var applePayButton: UIButton = UIButton(type: .System)
+    lazy var applePayButton: UIButton = UIButton(type: .Custom)
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,15 +36,16 @@ class ViewController: UIViewController {
         
         // Checkout Button
         checkoutButton.translatesAutoresizingMaskIntoConstraints = false
-        checkoutButton.backgroundColor = UIColor.greenColor()
-        checkoutButton.setTitle("Checkout", forState: .Normal)
+        checkoutButton.setTitle("Add To Cart", forState: .Normal)
+        checkoutButton.layer.cornerRadius = 6
+        checkoutButton.layer.masksToBounds = true
+        checkoutButton.setBackgroundImage(UIImage(named: "bg_blue"), forState: .Normal)
         footerView?.addSubview(checkoutButton)
         
         
         // Apple Pay Button
         applePayButton.translatesAutoresizingMaskIntoConstraints = false
-        applePayButton.backgroundColor = UIColor.greenColor()
-        applePayButton.setTitle("Pay", forState: .Normal)
+        applePayButton.setImage(UIImage(named: "applepay"), forState: .Normal)
         footerView?.addSubview(applePayButton)
         
         

@@ -11,6 +11,8 @@ import UIKit
 extension UIView {
     
     func showLayoutGuides() {
+        
+#if DEBUG
         // You sub may contain layout guides
         // so recursively add guides
         for sub in subviews {
@@ -33,6 +35,8 @@ extension UIView {
             let layoutGuideLayer = LayoutGuideLayer(guide: guide)
             self.layer.addSublayer(layoutGuideLayer)
         }
+        
+#endif
     }
     
 }

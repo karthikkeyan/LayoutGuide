@@ -8,11 +8,13 @@
 
 import UIKit
 
+
 private let footerButtonSpacing: CGFloat = 5.0
 
 private let footerButtonWidth: CGFloat = 124
 
 private let footerButtonHeight: CGFloat = 36
+
 
 class ViewController: UIViewController {
     
@@ -67,6 +69,12 @@ class ViewController: UIViewController {
         constraints.append(applePayButton.heightAnchor.constraintEqualToConstant(footerButtonHeight))
         
         NSLayoutConstraint.activateConstraints(constraints)
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        self.view.showLayoutGuides()
     }
 
     override func didReceiveMemoryWarning() {

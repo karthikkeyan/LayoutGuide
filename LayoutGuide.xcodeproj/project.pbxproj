@@ -13,7 +13,7 @@
 		F4D3B2491BEDE32300C065D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D3B2481BEDE32300C065D6 /* Assets.xcassets */; };
 		F4D3B24C1BEDE32300C065D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D3B24A1BEDE32300C065D6 /* LaunchScreen.storyboard */; };
 		F4D3B2571BEDE32300C065D6 /* LayoutGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D3B2561BEDE32300C065D6 /* LayoutGuideUITests.swift */; };
-		F4D3B2621BEDEC1800C065D6 /* UILayoutGuide+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D3B2611BEDEC1800C065D6 /* UILayoutGuide+Debug.swift */; };
+		F4D3B2621BEDEC1800C065D6 /* UIView+LayoutGuideDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D3B2611BEDEC1800C065D6 /* UIView+LayoutGuideDebug.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		F4D3B2521BEDE32300C065D6 /* LayoutGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D3B2561BEDE32300C065D6 /* LayoutGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutGuideUITests.swift; sourceTree = "<group>"; };
 		F4D3B2581BEDE32300C065D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4D3B2611BEDEC1800C065D6 /* UILayoutGuide+Debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILayoutGuide+Debug.swift"; sourceTree = "<group>"; };
+		F4D3B2611BEDEC1800C065D6 /* UIView+LayoutGuideDebug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+LayoutGuideDebug.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 			children = (
 				F4D3B2411BEDE32300C065D6 /* AppDelegate.swift */,
 				F4D3B2431BEDE32300C065D6 /* ViewController.swift */,
-				F4D3B2611BEDEC1800C065D6 /* UILayoutGuide+Debug.swift */,
+				F4D3B2611BEDEC1800C065D6 /* UIView+LayoutGuideDebug.swift */,
 				F4D3B2451BEDE32300C065D6 /* Main.storyboard */,
 				F4D3B2481BEDE32300C065D6 /* Assets.xcassets */,
 				F4D3B24A1BEDE32300C065D6 /* LaunchScreen.storyboard */,
@@ -202,7 +202,7 @@
 			files = (
 				F4D3B2441BEDE32300C065D6 /* ViewController.swift in Sources */,
 				F4D3B2421BEDE32300C065D6 /* AppDelegate.swift in Sources */,
-				F4D3B2621BEDEC1800C065D6 /* UILayoutGuide+Debug.swift in Sources */,
+				F4D3B2621BEDEC1800C065D6 /* UIView+LayoutGuideDebug.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
